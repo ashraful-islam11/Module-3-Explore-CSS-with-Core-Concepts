@@ -1,0 +1,103 @@
+<!-- todo:      Module no- 3.5          topic: (optional) advanced css selectors -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advanced css selectors</title>
+
+    <!-- internal css style: -->
+    <style>
+        /* multiple selectors : */
+        h2, li, .red, #identy{
+            color:red;
+        }
+
+        .green{
+            color:green;
+
+        }
+        .bold{
+            font-weight: bold;
+        }
+
+        /*  style only imedate child */
+        .parent>p{
+            color:purple;
+            font-weight: bold;
+            font-size:1.4rem;
+        }
+
+        /* condition: if .green and .blue = style */
+        .green.blue {
+            background-color: aqua;
+            color:yellow ;
+            border:2px solid blue;
+            
+        }
+        .parent div p {
+            color: pink;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <main>
+        <!--  another selector style-->
+        <section>
+            
+            <h2>best items </h2>
+            <ul>
+                <li>"items 1"</li>
+                <li>"items 2"</li>
+                <li>"items 3"</li>
+                <li>"items 4"</li>
+            </ul>
+
+            <h3>another selectors </h3>
+
+            <ol>
+                <li class="bold green">"is song is good ! 1"</li>
+                <li>"is song is good ! 2"</li>
+                <li>"is song is good ! 3"</li>
+                <li>"is song is good ! 4"</li>
+            </ol>
+        </section>
+
+        <!-- another p tags -->
+         <section>
+            <p>"This is a paragraph 1"</p>
+            <p>"This is a paragraph 2"</p>
+            <p class="red">"This is a paragraph 3"</p>
+            <p id="identy">"This is a paragraph 4"</p>
+            <p>"This is a paragraph 5"</p>
+         </section>
+
+         <!-- style only emidate chaild  -->
+          <section class="parent">
+            <p>"style only imediat child 1"</p>
+            <p>"style only imediat child 2"</p>
+
+            <div>
+                <p class="green blue">'not imedate chaild 1'</p>
+                <p>'not imedate chaild 2'</p>
+                <p>'not imedate chaild 3'</p>
+            </div>
+          </section>
+    </main>
+
+    <section class="recap">
+        <p> আমরা একই সাথে অনেক গুলো সিলেক্টর কে style dite pari:  p , .green, #blue {}</p>
+
+        <p>emedate child ke style dite caile, parent>child {}</p>
+
+        <p>condition diye dile , if .good and .bad {tahole ami style dibo) , .good.bad{style dilam}</p>
+    </section>
+    
+</body>
+</html>
