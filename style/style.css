@@ -1,0 +1,30 @@
+article{
+    background-color: greenyellow;
+    border:1px solid green;
+    padding:20px;
+    margin:20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.display{
+    background-color:aqua;
+
+}
+span {
+    color:purple;
+    font-weight: bold;
+    border:1px solid blue;
+    /* display: inline; */
+    /* display: block; */
+    /* display: inline-block; */
+    display: inline;
+    width: 60px;
+    height: 60px;
+    
+
+}
+.display .hide{
+    /* display: none; */
+    /* visibility: hidden;  */
+
+}
