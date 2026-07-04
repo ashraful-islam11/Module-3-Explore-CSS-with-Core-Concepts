@@ -1,0 +1,67 @@
+<!-- todo:          Module no -3.2          topic:  CSS inline internal selector tag and class selector -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline,internal and class selector</title>
+
+<!-- internal css style: -->
+
+<style>
+
+    #background{
+        background-color: rgb(223, 209, 134);
+    }
+
+    .player-bg{
+        background-color: antiquewhite;
+        padding:10px;
+        border:2px solid blue;
+        border-radius: 5px;
+        
+    }
+
+    .player{
+        color:green;
+    }
+</style>
+
+
+
+</head>
+<body>
+
+    <!-- apply in line css : -->
+     <div id="background">
+        <h1 style="color:blue">Round of 16 best team in fifa world cup:</h1>
+
+        <p style="color: navy;">French</p>
+        <p style="color: lightblue;">Argentina</p>
+        <p style="color: rgb(165, 81, 42);">spain</p>
+        <p style="color: yellowgreen;">Brazil</p>
+        <p style="color: whitesmoke;">England</p>
+        <p style="color: white;">Norway</p>
+        <p style="color: red;">Morocco</p>
+        <p style="color: red;"  >Portugal </p>                 
+        
+         </div>
+
+
+
+         <!-- internal css  and use class selector -->
+
+         <div class="player-bg">
+            <h2 class="player-heading"">best player of fifa world cup:</h2>
+
+            <p class="player ">Neymar jr</p>
+            <p class="player">Ronaldo</p>
+            <p class="player">Messi</p>
+            <p class="player">Mbappe</p>
+            <p class="player">haland</p>
+            <p class="player">ken</p>
+         </div>
+    
+</body>
+</html>
