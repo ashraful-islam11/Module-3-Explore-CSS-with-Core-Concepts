@@ -1,0 +1,80 @@
+<!-- todo:      Module no- 3.3          topic: css selectors Id , universal selector, background color : -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style to css </title>
+
+    <!--  we use internal css  -->
+      <style>
+         /* Universal selector  */
+         *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+         }
+        #bg{
+            background-color: aqua;
+            border: 1px solid blue;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .bug{
+           display: flex;
+           padding: 59px; 
+           margin: 30px;
+           border:1px solid green;
+           justify-content: center;
+           background-color: green
+        }
+       
+        .surcle{
+            border:1px solid red;
+            height: 150px;
+            width: 150px;
+            margin:30px;
+            text-align: center;
+            border-radius: 100%;
+            background-color: red;
+            
+           
+        }
+
+       
+        
+      </style>
+
+</head>
+<body>
+
+    <main>
+
+        <!-- * Id selector: -->
+        <div id="bg">
+
+            <h2>Id selector use cas </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, minus.</p>
+
+            <p>most popular game in this bangladesh </p>
+            <p>cricket</p>
+            <p>foot ball </p>
+            <p>vole ball</p>
+
+
+
+        </div>
+
+
+        <!-- our national flag :  -->
+        <h2 style="color: green; text-align: center;">Welcome Bangladesh</h2>
+        <div id="flaug " class="bug">
+            <div class="surcle "></div>
+
+        </div>
+
+
+    </main>
+    
+</body>
+</html>
