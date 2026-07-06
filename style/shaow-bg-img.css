@@ -1,0 +1,50 @@
+
+
+#head{
+    background-color: #fab7b7;
+    height:900px;
+    margin-bottom: 30px;
+    background-image: url("/image/images.jpg");
+    background-repeat: no-repeat;
+    /* image কে সাইজে আনার জন্য : */
+    /* background-size: cover; */
+    /* background-position: top center; */
+    /* background-position: bottom center; */
+    /* background-position: left center; */
+    /* background-position: right center; */
+    /* left center, left top  */
+    background-size: cover;
+    
+
+}
+#head h2 {
+    color: red; 
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: bold;
+}
+.dady {
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+    gap:50px;
+
+    
+}
+
+
+.card {
+    
+    padding: 20px ;
+    text-align: justify;
+    background-color:rgb(245, 235, 235);
+    border-radius: 10px;
+    box-shadow: 3px 4px 20px ;
+
+    
+}
+.card h1 {
+    color: blue;
+
+}
